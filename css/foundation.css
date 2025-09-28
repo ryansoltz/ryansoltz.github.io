@@ -8045,27 +8045,47 @@ a.thumbnail image {
 
 /*Personal Styling*/
 
+html {
+  font-size: 100%;
+}
+
 body {
   background-color: #91c4e6;
 }
 
 .text {
-  font-family: Tahoma, sans-serif;
+  font-family: "Arial Rounded MT", sans-serif;
+  color:#122d68
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 2rem;
 }
 
 h1 {
-  font-family: Tahoma;
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: underline;
   background-color:#b4e1f0;
-  padding: 16px 60px;
+  font: italic bold 3rem Tahoma,sans-serif;
+  padding: 1.5rem 4rem;
   color:#3a2379;
 }
 
+
+img {
+  border: 0.33rem solid #211c47;
+  width: 100rem;
+  height:auto;
+  max-width: 100%;
+  max-height: auto;
+}
+
 a {
-  color: #623ba1;
+  color: #6e3dbd;
   background-color: #211c47;
 }
 
-a:hover {color:#510470; background-color: #1a0733;}
+a:hover {color:#67068d; background-color: #1a0733;}
