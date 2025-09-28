@@ -8048,3 +8048,24 @@ a.thumbnail image {
 body {
   background-color: #91c4e6;
 }
+
+.text {
+  font-family: Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  background-color:#b4e1f0;
+  padding: 16px 60px;
+  color:#3a2379;
+}
+
+a {
+  color: #623ba1;
+  background-color: #211c47;
+}
+
+a:hover {color:#510470; background-color: #1a0733;}
