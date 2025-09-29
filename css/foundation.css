@@ -8055,11 +8055,20 @@ body {
 
 .text {
   font-family: "Arial Rounded MT", sans-serif;
-  color:#122d68
+  color:#122d68;
+}
+
+.subtext {
+  color: #47629b;
+  font-size: 1.4rem;
 }
 
 p {
   font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: circle;
 }
 
 h3 {
@@ -8083,9 +8092,10 @@ img {
   max-height: auto;
 }
 
+
 a {
   color: #6e3dbd;
-  background-color: #211c47;
 }
 
 a:hover {color:#67068d; background-color: #1a0733;}
+a:visited{color:#6e3dbd}
