@@ -8060,15 +8060,27 @@ body {
 
 .subtext {
   color: #47629b;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 p {
   font-size: 1.5rem;
+  font-family: "Arial Rounded MT", sans-serif;
+  color:#122d68;
 }
+
+
 
 ul {
   list-style-type: circle;
+}
+
+.none {
+  list-style-type: none;
+}
+
+li {
+  font-family: Tahoma, sans-serif;
 }
 
 h3 {
@@ -8090,6 +8102,12 @@ img {
   height:auto;
   max-width: 100%;
   max-height: auto;
+}
+
+.fun {
+  max-width: 70%;
+  max-height: auto;
+  border: 0.25rem solid #211c47;
 }
 
 
