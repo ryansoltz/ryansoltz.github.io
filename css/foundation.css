@@ -8117,3 +8117,5 @@ a {
 
 a:hover {color:#67068d; background-color: #1a0733;}
 a:visited{color:#6e3dbd}
+a.two:visited{color:#122d68}
+a.two:hover{color:#501fff; background-color: #91c4e6;}
